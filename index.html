@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .call{
+            color: blue;
+            width: 400px;
+            height: 200px;
+            border-radius: 30px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div v-bind:class = "message"> hebfhbshfbshf</div>
+        <br>
+        {{'Random number: ' + Math.ceil(Math.random()*6) }}
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const app = Vue.createApp({
+            data() {
+            return {
+                message: "call"
+            }
+            }
+        })
+
+        app.mount('#app')
+    </script>
+</body>
+</html>
