@@ -87,6 +87,23 @@
     justify-content: center;
     align-items: center;
 }
+@media(max-width: 767px) {
+    #heading {
+        width: 100px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu_item {
+        display: flex;
+        height: 100%;
+        align-items: center; /* Centers the content vertically within menu items */
+        /* background-color: blueviolet; */
+        margin-right: 2%;
+        padding: 0 1px; /* Add padding to menu items for spacing */
+    }
+}
 
 /* Add additional styles for .menutext and .heading if needed */
 
