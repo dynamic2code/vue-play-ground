@@ -40,7 +40,7 @@ import Item from './Item.vue'
     
 }
 .item_list{
-    width: 80%;
+    width: 90%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
