@@ -24,8 +24,10 @@
     justify-content: center;
     align-items: center;
     padding: 1%;
-    height: 100%;
+    height: 40%;
     border: 1px solid black;
     margin: 2%;
+    font-family: 'kedal',sans-serif;
+    font-weight: 400;
 }
 </style>

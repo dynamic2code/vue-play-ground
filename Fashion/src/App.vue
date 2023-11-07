@@ -24,7 +24,6 @@ header{
   padding: 0;
 }
 footer{
-  
   width:100vw;
   height: 40px;
 }

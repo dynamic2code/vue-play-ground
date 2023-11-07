@@ -10,6 +10,21 @@ import Item from './Item.vue'
             <Item></Item>
             <Item></Item>
             <Item></Item>
+            <Item></Item>
+            <Item></Item>
+            <Item></Item>
+            <Item></Item>
+            <Item></Item>
+            <Item></Item>
+            <Item></Item>
+            <Item></Item>
+            <Item></Item>
+            <Item></Item>
+            <Item></Item>
+            <Item></Item>
+            <Item></Item>
+            <Item></Item>
+            <Item></Item>
         </div>  
     </div>
 </template>
@@ -22,14 +37,20 @@ import Item from './Item.vue'
     justify-content: center;
     align-items: center;
     height: 700px;
-    overflow: auto;
+    
 }
 .item_list{
     width: 80%;
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: black;
+    overflow: auto;
+    /* justify-content: space-between; */
+    /* background-color: black; */
+}
+@media(max-width: 767px) {
+    .item_list{
+        width: 90%;
+    }
 }
 </style>

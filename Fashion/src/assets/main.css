@@ -1,6 +1,6 @@
-/* @import './base.css';
+@import './base.css';
 
-#app {
+/* #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0;
@@ -33,3 +33,17 @@ a,
     padding: 0 2rem;
   }
 } */
+@font-face {
+  font-family: 'kedal'; /* Font family name to be used in your styles */
+  src: url('~@/assets/fonts/kedal/otf/kedal-kedal-regular-400.otf');
+  /* Add other font formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'koshy'; /* Font family name to be used in your styles */
+  src: url('~@/assets/fonts/koshy/otf/koshy-koshy-regular-400.otf');
+  /* Add other font formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
